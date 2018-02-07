@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "90760152620",
+    "firebase_url": "https://lecturerassistants.firebaseio.com",
+    "project_id": "lecturerassistants",
+    "storage_bucket": "lecturerassistants.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90760152620:android:60b001dcf28e2ab2",
+        "android_client_info": {
+          "package_name": "anandgaur.com.lecturerassistants"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90760152620-a84guhsdnqck94cmgfs7g3tm0sucgcct.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "anandgaur.com.lecturerassistants",
+            "certificate_hash": "9b2aedaa5272ed946ce8136a912eea571596e446"
+          }
+        },
+        {
+          "client_id": "90760152620-t1tvqbt5rllummvsi1h1mu1a2grmpjm2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuv7bsYyyjJyF7gLHAHXq21ai6mUexKyI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "90760152620-t1tvqbt5rllummvsi1h1mu1a2grmpjm2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

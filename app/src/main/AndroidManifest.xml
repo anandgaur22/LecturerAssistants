@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="anandgaur.com.lecturerassistants">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".AppBase"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name=".profile_activity"
+            android:parentActivityName=".AppBase" />
+        <activity
+            android:name=".Student_Registartion"
+            android:parentActivityName=".profile_activity" />
+        <activity
+            android:name=".noteCreate"
+            android:parentActivityName=".noteActivity" />
+        <activity
+            android:name=".attendanceActivity"
+            android:parentActivityName=".AppBase" />
+        <activity
+            android:name=".Result_activity"
+            android:parentActivityName=".cgpa_activity" />
+        <activity
+            android:name=".cgpa_activity"
+            android:parentActivityName=".AppBase" />
+        <activity
+            android:name=".noteActivity"
+            android:parentActivityName=".AppBase" />
+        <activity
+            android:name=".scheduler"
+            android:parentActivityName=".AppBase" />
+        <activity
+            android:name=".make_schedule"
+            android:parentActivityName=".scheduler" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".AppBase" />
+        <activity
+            android:name=".About"
+            android:parentActivityName=".AppBase" />
+        <activity
+            android:name=".Edit_Student"
+            android:parentActivityName=".AppBase" />
+        <activity android:name=".WelcomeActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity android:name=".SplashActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+    </application>
+
+</manifest>
